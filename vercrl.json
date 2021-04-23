@@ -1,0 +1,7 @@
+{
+  "name": "YourProjectName",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://web.sample/$1"}
+  ]
+}
