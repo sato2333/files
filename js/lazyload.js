@@ -1,4 +1,4 @@
-$("img.lazyload").lazyload({
+$(".lazyload").lazyload({
 	effect: "fadeIn",
 	threshold: 200,
 	failurelimit: 12,
