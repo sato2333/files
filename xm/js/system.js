@@ -37,8 +37,8 @@ var feifei = {
 			$.ajaxSetup({ 
 				cache: true 
 			});
-			$("<link>").attr({ rel: "stylesheet",type: "text/css",href: "//cdn.bootcss.com/highlight.js/9.12.0/styles/googlecode.min.css"}).appendTo("head");
-			$.getScript("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function(){
+			$("<link>").attr({ rel: "stylesheet",type: "text/css",href: "//lib.baomitu.com/highlight.js/9.12.0/styles/googlecode.min.css"}).appendTo("head");
+			$.getScript("//lib.baomitu.com/highlight.js/9.12.0/highlight.min.js", function(){
 				$('pre code').each(function(i, block) {
 					hljs.highlightBlock(block);
 				});
@@ -63,6 +63,18 @@ var feifei = {
 				$this.attr('data-val',$data_val);
 			}
 		});
+	},
+	'pushBaidu':function(){
+		var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
 	}
 },
 'mobile':{//移动端专用
@@ -92,9 +104,9 @@ var feifei = {
 			$("<link>").attr({
 				rel: "stylesheet",
 				type: "text/css",
-				href: cms.root+"Public/jquery.flickity/2.1.1/flickity.min.css"
+				href: "//lib.baomitu.com/flickity/2.1.1/flickity.min.css"
 			}).appendTo("head");
-			$.getScript(cms.root+"Public/jquery.flickity/2.1.1/flickity.pkgd.min.js", function(){
+			$.getScript("//lib.baomitu.com/flickity/2.1.1/flickity.pkgd.min.js", function(){
 				$(".ff-gallery").each(function(i){
 					$index = $(this).find('.gallery-active').index()*1;
 					if($index > 3){
@@ -151,14 +163,14 @@ var feifei = {
 'language':{//简繁转换
 	's2t':function(){
 		if(feifei.browser.language=='zh-hk' || feifei.browser.language=='zh-tw'){
-			$.getScript("//cdn.feifeicms.co/jquery/s2t/0.1.0/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files@master/xm/js/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).s2t();//$.s2t(data);
 			});
 		}
 	},
 	't2s':function(){
 		if(feifei.browser.language=='zh-cn'){
-			$.getScript("//cdn.feifeicms.co/jquery/s2t/0.1.0/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files@master/xm/js/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).t2s();//$.s2t(data);
 			});
 		}
@@ -189,7 +201,29 @@ var feifei = {
 		  if(event.keyCode==37 && prev!=undefined) location=prev; 
 		  if(event.keyCode==39 && next!=undefined) location=next; 
 	  });
-  }
+  },
+	'scroll': function(){
+		if( $(".ff-page-scroll").length ){
+			var $e = $(".ff-page-scroll").eq(0);
+			$(window).bind('scroll', function(){
+				$this = $(this);
+				$page = $e.attr('data-page')*1+1;
+				$id = $e.attr('data-target');
+				if( ($(this).scrollTop() + $(window).height()) >= $(document).height() ){
+					$.get($e.attr('data-url')+$page, function(data){
+						if(data){
+							$(".ff-page-scroll").eq(0).attr("data-page",$page);
+							$($id).append(data);
+							$($id+" .ff-img").lazyload();
+						}else{
+							$(".ff-page-scroll").remove();
+							$this.unbind("scroll");
+						}
+					},'html');
+				}
+			});
+		}
+	}
 },
 'alert':{//提示
 	'success':function($id, $tips){
@@ -204,9 +238,9 @@ var feifei = {
 		$.ajaxSetup({
 			cache: true
 		});
-		$.getScript(cms.root+"Public/jquery.lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
+		$.getScript("//lib.baomitu.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
 			$("img.ff-img").lazyload({
-				placeholder : cms.root+"Public/images/no.jpg",
+				placeholder : "//cdn.jsdelivr.net/gh/sato2333/files@master/xm/images/no.jpg",
 				effect : "fadeIn",
 				failurelimit: 15
 				//threshold : 400
@@ -329,7 +363,7 @@ var feifei = {
 			$.ajaxSetup({
 				cache: true
 			});
-			$.getScript(cms.root+"Public/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js", function(response, status) {
+			$.getScript("//lib.baomitu.com/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js", function(response, status) {
 				if($('.ff-search').eq(0).attr('data-sid') == 2){
 					$ajax_url = cms.root+'index.php?g=home&m=search&a=news';
 				}else{
@@ -450,9 +484,9 @@ var feifei = {
 			$.ajaxSetup({ 
 				cache: true 
 			});
-			$("<link>").attr({ rel: "stylesheet",type: "text/css",href: "//cdn.bootcss.com/raty/2.7.1/jquery.raty.min.css"}).appendTo("head");
+			$("<link>").attr({ rel: "stylesheet",type: "text/css",href: "//lib.baomitu.com/raty/2.7.1/jquery.raty.min.css"}).appendTo("head");
 			//
-			$.getScript("//cdn.bootcss.com/raty/2.7.1/jquery.raty.min.js", function(response, status) {
+			$.getScript("//lib.baomitu.com/raty/2.7.1/jquery.raty.min.js", function(response, status) {
 				$(".ff-score").each(function(i){
 					$(".ff-score").eq(i).find('.ff-score-raty').raty({ 
 						starType: 'i',
