@@ -157,14 +157,14 @@ var feifei = {
 'language':{//简繁转换
 	's2t':function(){
 		if(feifei.browser.language=='zh-hk' || feifei.browser.language=='zh-tw'){
-			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files@master/xm/js/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files/xm/js/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).s2t();//$.s2t(data);
 			});
 		}
 	},
 	't2s':function(){
 		if(feifei.browser.language=='zh-cn'){
-			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files@master/xm/js/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files/xm/js/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).t2s();//$.s2t(data);
 			});
 		}
@@ -234,7 +234,7 @@ var feifei = {
 		});
 		$.getScript("//lib.baomitu.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
 			$("img.ff-img").lazyload({
-				placeholder : "//cdn.jsdelivr.net/gh/sato2333/files@master/xm/images/no.jpg",
+				placeholder : "//cdn.jsdelivr.net/gh/sato2333/files/xm/images/no.jpg",
 				effect : "fadeIn",
 				failurelimit: 15
 				//threshold : 400
