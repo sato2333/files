@@ -3,7 +3,7 @@
 		$("#box").show();
 		setTimeout(function(){
 			$("#box").hide();
-		},5000);
+		},3000);
 		$("#tip").show();
 		setTimeout(function(){
 			$("#tip").hide();
