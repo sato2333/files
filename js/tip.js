@@ -3,10 +3,10 @@
 		$("#box").show();
 		setTimeout(function(){
 			$("#box").hide();
-		},3000);
+		},3500);
 		$("#tip").show();
 		setTimeout(function(){
 			$("#tip").hide();
-		},5000);
+		},3500);
 	},1000);
 });
