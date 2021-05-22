@@ -266,9 +266,9 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff3f3f;}
 	position:absolute;
 	z-index:10000;
 	left:10%;
-	top:30%;
+	top:35%;
 	width:80%;
-	height:180px;
+	height:160px;
 	padding:10% 0;
 	border-radius: 10px;
 	background-color:#fff;
