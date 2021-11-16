@@ -121,7 +121,7 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff3f3f;}
 /* page */
 .stui-page,.stui-page-text{margin: 10px 0;}
 .stui-page li{display:inline-block;margin-left:10px}
-.stui-page li .num,.stui-page li a{display:inline-block;padding:5px 15px;border-radius: 4px; background-color: #fff; border: 1px solid #eee;}
+.stui-page li .num,.stui-page li a{display:inline-block;padding:6px 15px;border-radius: 4px; background-color: #fff; border: 1px solid #eee;}
 .stui-page li.active a,.stui-page li.disabled a{ background-color: #ff3f3f; border: 1px solid #ff3f3f; color: #fff;}
 .stui-page-text{ font-size: 0; text-align: center;}
 .stui-page-text a,.stui-page-text em,.stui-page-text span{font-style:normal; display:inline-block; margin: 0 5px;padding:6px 12px; border-radius: 4px;cursor:pointer; background-color: #fff; border: 1px solid #eee; font-size: 14px;}
