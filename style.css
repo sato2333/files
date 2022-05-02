@@ -1,0 +1,48 @@
+html, body {
+	overflow-x: hidden;
+}
+body {
+	padding: 5px;
+}
+a,a:link,a:visited {
+	text-decoration: underline;
+}
+.center {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.t_center {
+	width: 700px;
+	margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+	.t_center {
+	width: 350px;
+	margin: 0 auto
+  }
+}
+.left {
+	text-align: left;
+	font-size: 16px;
+}
+@media (min-width: 768px) {
+	th {
+	width: 350px;
+  }
+}
+@media (max-width: 768px) {
+	th {
+	width: 175px;
+	text-align: center;
+  }
+}
+.green {
+	color: rgb(0, 128, 0);
+}
+.white {
+	color: rgb(255, 255, 255);
+}
+.clearfix {
+	margin: 5px auto;
+}
