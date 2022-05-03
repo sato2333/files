@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /* all */
 html{height: 100%;}
@@ -10,6 +10,9 @@ img{border: 0; vertical-align:middle}
 img.img-responsive{ max-width: 100%; width: 100%;}
 input{outline: medium none; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 input:focus{border-color:#ff3f3f; -webkit-box-shadow:inset 0 1px 1px rgba(255,136,0,.075),0 0 8px rgba(255,136,0,.6);}
+
+/* marquee */
+marquee{color: #ff3f3f; font-size: 15px; margin: 3px 0;}
 
 /* container */
 *{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
@@ -213,6 +216,11 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff3f3f;}
 	.stui-content__playlist{ padding: 5px 0 0 5px;}
 	.stui-content__playlist li{ width: 33.333333%;}
 	.stui-content__playlist li a{ font-size: 12px;}
+	
+	/* player */
+	.stui-player__detail .more-btn{ background-color: #333; height: 44px; padding: 0 2%;}
+	.stui-player__detail .more-btn li{ background-color: #eee; width: 29%; float: left; border-radius: 5px; margin: 2% 2%; padding: 5px; text-align: center;}
+	.stui-player__detail .more-btn li a{ font-size: 13px;}
 	
 	/* link */
 	.stui-link__text li{ margin-right: 10px; margin-bottom: 5px;}
