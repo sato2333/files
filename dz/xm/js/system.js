@@ -157,14 +157,14 @@ var feifei = {
 'language':{//简繁转换
 	's2t':function(){
 		if(feifei.browser.language=='zh-hk' || feifei.browser.language=='zh-tw'){
-			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files/dz/xm/js/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.feifeicms.co/jquery/s2t/0.1.0/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).s2t();//$.s2t(data);
 			});
 		}
 	},
 	't2s':function(){
 		if(feifei.browser.language=='zh-cn'){
-			$.getScript("//cdn.jsdelivr.net/gh/sato2333/files/dz/xm/js/s2t.min.js", function(data, status, jqxhr) {
+			$.getScript("//cdn.feifeicms.co/jquery/s2t/0.1.0/s2t.min.js", function(data, status, jqxhr) {
 				$(document.body).t2s();//$.s2t(data);
 			});
 		}
@@ -234,7 +234,7 @@ var feifei = {
 		});
 		$.getScript("//lib.baomitu.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js", function(response, status) {
 			$("img.ff-img").lazyload({
-				placeholder : "//cdn.jsdelivr.net/gh/sato2333/files/dz/xm/images/no.jpg",
+				placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC",
 				effect : "fadeIn",
 				failurelimit: 15
 				//threshold : 400
