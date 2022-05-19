@@ -120,6 +120,9 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff3f3f;}
 
 /* player */
 .stui-player__video{ background-color: #000;}
+.stui-player__detail .desc,.actor{ padding-left:42px}
+.stui-player__detail .desc .left{ margin-left:-42px}
+.stui-player__detail .actor .left{ margin-left:-42px}
 
 /* page */
 .stui-page,.stui-page-text{margin: 10px 0;}
