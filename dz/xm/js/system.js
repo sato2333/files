@@ -249,7 +249,7 @@ var feifei = {
 				html: true
 		});
 		$(".glyphicon-phone").on('show.bs.popover', function () {
-			$(".glyphicon-phone").attr('data-content','<img class="ff-qrcode" src="//91tv.9p9.in/qr.jpg?url='+encodeURIComponent(feifei.browser.url)+'"/>');
+			$(".glyphicon-phone").attr('data-content','<img class="ff-qrcode" src="//www.lofter.com/genBitmaxImage?url='+encodeURIComponent(feifei.browser.url)+'"/>');
 		})
 	},
 	'vcode':function(){//安全码
