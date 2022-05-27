@@ -1,48 +1,59 @@
-html, body {
-	overflow-x: hidden;
-}
 body {
-	padding: 5px;
+    margin: 0 auto;
+    padding: 1%;
+    font-family: Microsoft YaHei;
 }
 a,a:link,a:visited {
-	text-decoration: underline;
-}
-.center {
-	text-align: center;
+    text-decoration: underline;
+    color: blue;
 }
 @media (min-width: 768px) {
-	.t_center {
-	width: 700px;
-	margin: 0 auto;
-  }
+    .container {
+        width: 700px;
+        padding: 0;
+    }
+    img {
+        width: 700px;
+    }
+    th {
+        width: 350px;
+        font-weight: 400;
+    }
+    th img {
+        width: 215px;
+    }
 }
 @media (max-width: 768px) {
-	.t_center {
-	width: 350px;
-	margin: 0 auto
-  }
+    .container {
+        width: 350px;
+        padding: 0;
+    }
+    img {
+        width: 350px;
+    }
+    th {
+        width: 175px;
+        font-weight: 400;
+        text-align: center;
+    }
+    th img {
+        width: 169px;
+    }
 }
 .left {
-	text-align: left;
-	font-size: 16px;
+    text-align: left;
+    font-size: 16px;
 }
-@media (min-width: 768px) {
-	th {
-	width: 350px;
-  }
+.center {
+    text-align: center;
 }
-@media (max-width: 768px) {
-	th {
-	width: 175px;
-	text-align: center;
-  }
-}
-.green {
-	color: rgb(0, 128, 0);
+.red {
+    color: red;
+    font-weight: 900;
 }
 .white {
-	color: rgb(255, 255, 255);
+    color: white;
 }
 .clearfix {
-	margin: 5px auto;
+    margin: 3px auto;
 }
