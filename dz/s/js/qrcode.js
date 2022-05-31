@@ -1,0 +1,1 @@
+var qrcode = new QRCode('qr',{text:location.href,width:105,height:105,correctLevel : QRCode.CorrectLevel.H});
