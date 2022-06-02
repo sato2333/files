@@ -207,7 +207,7 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff3f3f;}
 	
 	/* pannel */	
 	.stui-pannel{ padding: 5px;}
-	.stui-pannel:before{ left: 10px; -webkit-transform-origin: 0 100%; transform-origin: 0 100%; -webkit-transform: scaleY(0.5); transform: scaleY(0.5);}
+	.stui-pannel:before{ -webkit-transform-origin: 0 100%; transform-origin: 0 100%; -webkit-transform: scaleY(0.5); transform: scaleY(0.5);}
 	.stui-pannel__head{ padding: 0 5px; margin-bottom: 5px;}
 	.stui-pannel__head .title{ font-size: 16px;}
 	
