@@ -1,5 +1,5 @@
 @charset "utf-8";
-@font-face { font-family: 'SJshishangyunhei'; src: url('//sanji20191107.oss-cn-shenzhen.aliyuncs.com/%E4%B8%89%E6%9E%81%E6%97%B6%E5%B0%9A%E7%AE%80%E4%BD%93.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap;}
+@font-face { font-family: 'SJshishangyunhei'; src: url('SJshishangyunhei-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap;}
 
 /* all */
 html{ height: 100%;}
