@@ -97,10 +97,10 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #ff5151;}
 .stui-vodlist__title{ font-size: 14px; margin-bottom: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; white-space: nowrap;}
 
 /* app vodlist */
-.stui-vodlist__item{ position: relative; float: left; padding: 10px; width: 12.5%;}
-.stui-vodlist__item.active{ width: 25%;}
-.stui-vodlist__thumb{ position: relative; display: block; padding-top: 100%; background: url(../img/load.png) no-repeat; background-position: 50% 50%; background-size: cover;}
-.stui-vodlist__title{ font-size: 14px; text-align: center; margin-bottom: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; white-space: nowrap;}
+vodlist__item{ position: relative; float: left; padding: 10px; width: 12.5%;}
+vodlist__item.active{ width: 25%;}
+vodlist__thumb{ position: relative; display: block; padding-top: 100%; background: url(../img/load.png) no-repeat; background-position: 50% 50%; background-size: cover;}
+vodlist__title{ font-size: 14px; text-align: center; margin-bottom: 0; width: 100%; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; white-space: nowrap;}
 
 /* content */
 .stui-content__detail,.stui-content__thumb,.stui-content__ad{ display: table-cell; vertical-align: top;}
