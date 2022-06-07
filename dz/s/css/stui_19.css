@@ -186,6 +186,10 @@ vodlist__title{ font-size: 14px; text-align: center; margin-bottom: 0; width: 10
 	.stui-vodlist__item{ width: 25%;}
 	.stui-vodlist__item.active{ width: 50%;}
 	
+	/* app vodlist */
+	.vodlist__item{ width: 12.5%;}
+	.vodlist__item.active{ width: 25%;}
+	
 	/* content */
 	.stui-content__detail{ width: 100%;}
 	.stui-content__playlist li{ width: 257%;}
@@ -220,6 +224,10 @@ vodlist__title{ font-size: 14px; text-align: center; margin-bottom: 0; width: 10
 	/* vodlist */
 	.stui-vodlist__item{ width: 50%;}
 	.stui-vodlist__item.active{ width: 100%;}
+	
+	/* app vodlist */
+	.vodlist__item{ width: 25%;}
+	.vodlist__item.active{ width: 50%;}
 	
 	/* content */
 	.stui-content__thumb .pic{ width: 120px;}
