@@ -13,7 +13,7 @@ span { color: #6c757d;}
 .img{ padding-top: 135%; background: url(../img/load.png) no-repeat; background-position: 50% 50%; background-size: cover;}
 .img .active{ padding-top: 50%; background: url(../img/load_w.png) no-repeat; background-position: 50% 50%; background-size: cover;}
 .img .img-text{ bottom: 0; padding:5px 10px; font-size: 12px; background-image: linear-gradient(transparent,rgba(0,0,0,.5)); color: #FFFFFF;}
-.img .play{ display: none; top: 0; z-index: 1; background: rgba(0,0,0,0.1) url(../img/play.png) center no-repeat;}
+.img .play{ display: none; top: 0; z-index: 1; background: rgba(0,0,0,.1) url(../img/play.png) center no-repeat;}
 .img:hover .play{ display: block;}
 
 .playlist li{ width: 10%; margin: 10px;}
