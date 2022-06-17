@@ -1,12 +1,12 @@
 @charset "utf-8";
-@font-face { font-family: 'SJshishangyunhei'; src: url('SJshishangyunhei-Regular.woff2') format('woff2'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'SJssyhjt'; src: url('ypyy.woff2') format('woff2'); font-weight: normal; font-style: normal;}
 
 /* all */
 body { font-size:15px; background: #f4f4f4; color: #616161;}
 a, a:hover { color: #6c757d; text-decoration: none;}
 span { color: #6c757d;}
 
-.logo{ font-family: 'SJshishangyunhei'; font-size: 1.8rem; line-height: 100%;}
+.logo{ font-family: 'SJssyhjt'; font-size: 1.8rem; line-height: 100%;}
 .dropdown{ display: none; top: 3px; right: 20%; z-index: 999; padding: 10px; background-color: #fff; box-shadow: 0 3px 9px rgba(0,0,0,.3);}
 .qrcode:hover .dropdown{ display: block;}
 
