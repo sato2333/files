@@ -3,7 +3,7 @@
 
 /* all */
 body { font-size:15px; background: #f4f4f4; color: #616161;}
-a, a:hover { color: #6c757d; text-decoration: none;}
+a, a:hover { color: #6c757d; text-decoration: none; outline: 0;}
 span { color: #6c757d;}
 
 .logo{ font-family: 'SJssyhjt'; font-size: 1.8rem; line-height: 100%;}
