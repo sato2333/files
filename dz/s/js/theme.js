@@ -13,7 +13,7 @@ function gotop() {
 }
 
 // lazyload
-$(".img").lazyload({
+$("a[data-original]").lazyload({
 	effect: "fadeIn",
 	threshold: 200,
 	failurelimit: 12,
