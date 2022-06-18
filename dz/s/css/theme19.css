@@ -1,0 +1,35 @@
+@charset "utf-8";
+@font-face{ font-family: 'SJssyhjt'; src: url('SJshishangyunhei-Subset.woff2') format('woff2'); font-weight: normal; font-style: normal;}
+
+body{ font-size:15px; background: #111;}
+a, a:active, a:hover, a:focus{ color: #ccc; text-decoration: none; outline: none;}
+span, .text-yin{ color: #aaa;}
+.text-hong{ color: #ff5151;}
+.bg-hong{ background: #ff5151;}
+.bg-hui1{ background: #333;}
+.bg-hui2{ background: #222;}
+
+.logo{ font-family: 'SJssyhjt'; font-size: 1.8rem; line-height: 100%; color: #ff5151;}
+
+input[type=text]::placeholder,.form-control,.form-control:active,.form-control:hover,.form-control:focus{ color: #ccc; background: #555;}
+
+.dropdown{ display: none; top: 3px; right: 20%; z-index: 999; padding: 10px; background-color: #fff; box-shadow: 0 3px 9px rgba(0,0,0,.3);}
+.qrcode:hover .dropdown{ display: block;}
+
+.img{ padding-top: 75%; background: url(../img/load.png) no-repeat; background-position: 50% 50%; background-size: cover;}
+.img .active{ padding-top: 50%; background: url(../img/load_w.png) no-repeat; background-position: 50% 50%; background-size: cover;}
+.img .img-text{ bottom: 0; padding:5px 10px; font-size: 12px; background-image: linear-gradient(transparent,rgba(0,0,0,.5)); color: #aaa;}
+.img .play{ display: none; top: 0; z-index: 1; background: rgba(0,0,0,.1) url(../img/play.png) center no-repeat;}
+.img:hover .play{ display: block;}
+.app-img{ padding-top: 100%; background: url(../img/load.png) no-repeat; background-position: 50% 50%; background-size: cover;}
+.app-img .active{ padding-top: 50%; background: url(../img/load_w.png) no-repeat; background-position: 50% 50%; background-size: cover;}
+
+.page-link:active,.page-link:hover,.page-link:focus{ color: #ccc; background: #ff5151;}
+
+#gotop{ display: none; bottom: 100px; right: 10%; z-index: 1000; width: 39px; height: 39px; border: 1px solid #ccc; border-radius: 5px; background-repeat: no-repeat; background-position: 50% 50%; background-size: 50% 50%; background-image: url(../img/gotop.png);}
+
+@media (max-width: 768px) {
+	.logo{ font-size: 1.6rem;}
+	.nav,.navbar-nav{ white-space: nowrap; flex-wrap: nowrap; overflow-x: scroll; overflow-y: hidden;}
+	.page-link{ padding: 10px 10px;}
+}
