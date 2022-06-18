@@ -27,5 +27,5 @@ span { color: #6c757d;}
 	.nav,.navbar-nav{ white-space: nowrap; flex-wrap: nowrap; overflow-x: scroll; overflow-y: hidden;}
 	.playlist li{ width: 25%; margin: 5px;}
 	.playlist li a{ font-size: 13px; padding: 5px 15px;}
-	.page-link{ padding: 8px 10px;}
+	.page-link{ padding: 10px 10px;}
 }
