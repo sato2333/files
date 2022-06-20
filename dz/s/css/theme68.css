@@ -6,7 +6,7 @@ body{ font-size: 15px; background: #f9fafd; color: #818181;}
 a, a:active, a:hover, a:focus{ color: #6c757d; text-decoration: none; outline: none;}
 span{ color: #6c757d;}
 
-.logo{ font-family: 'SJssyhjt'; font-size: 2rem; line-height: 100%;}
+.logo{ font-family: 'SJssyhjt'; font-size: 2.2rem; line-height: 88%;}
 .dropdown{ display: none; top: 3px; right: 20%; z-index: 999; padding: 10px; background-color: #fff; box-shadow: 0 3px 9px rgba(0,0,0,.3);}
 .qrcode:hover .dropdown{ display: block;}
 
@@ -25,6 +25,7 @@ span{ color: #6c757d;}
 #gotop{ display: none; bottom: 100px; right: 10%; z-index: 1000; width: 39px; height: 39px; border: 1px solid #ccc; border-radius: 5px; background-repeat: no-repeat; background-position: 50% 50%; background-size: 50% 50%; background-image: url(../img/gotop.png);}
 
 @media (max-width: 768px) {
+	.logo{ font-size: 2rem;}
 	.nav,.navbar-nav{ white-space: nowrap; flex-wrap: nowrap; overflow-x: scroll; overflow-y: hidden;}
 	.playlist li{ width: 25%; margin: 5px;}
 	.playlist li a{ font-size: 13px; padding: 5px 15px;}
