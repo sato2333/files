@@ -27,7 +27,7 @@ span{ color: #6c757d;}
 @media (max-width: 768px) {
 	.logo{ font-size: 2rem;}
 	.nav,.navbar-nav{ white-space: nowrap; flex-wrap: nowrap; overflow-x: scroll; overflow-y: hidden;}
-	.playlist li{ width: 25%; margin: 5px;}
+	.playlist li{ width: 35%; margin: 5px;}
 	.playlist li a{ font-size: 13px; padding: 5px 15px;}
 	.page-link{ padding: 10px 10px;}
 }
