@@ -1,8 +1,7 @@
 var rd=[
-	'ŠŠYW9ebd2Dqt8ΦΦ',
-	'ηηi95FyBaEqt8ΨΨ',
-	'дSWj3FncEqt8ζ',
-	'ЮkGYE5nfEqt8ㄍㄍ',
+	'ΔΔMQacRo1out8ё',
+	'ÊÊUJAxa98out8ÄÄ',
+	'ΔΔEG2FZJbout8ΦΦ',
 ];
 var clipboard = new Clipboard('a',{
 	text:()=>{
