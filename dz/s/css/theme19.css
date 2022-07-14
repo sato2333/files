@@ -10,9 +10,7 @@ span, .text-yin{ color: #aaa;}
 .bg-hui2{ background: #222;}
 
 .logo,.logo:active,.logo:hover,.logo:focus{ font-family: 'SJssyhjt'; font-size: 1.6rem; line-height: 100%; color: #ff5151;}
-
 input[type=text]::placeholder,.form-control,.form-control:active,.form-control:hover,.form-control:focus{ color: #ccc; background: #555;}
-
 .dropdown{ display: none; top: 3px; right: 20%; z-index: 999; padding: 10px; background-color: #fff; box-shadow: 0 3px 9px rgba(0,0,0,.3);}
 .qrcode:hover .dropdown{ display: block;}
 
