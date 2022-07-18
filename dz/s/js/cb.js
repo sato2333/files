@@ -1,7 +1,7 @@
 var rd=[
-	'ΘΘ5tRTE6tsUt8ΘΘ',
-	'ζk6ntRWEsUt8д',
-	'ΔΔErPt9wwsUt8▽▽',
+	'ΦΦpQwAto7B5u8ξ',
+	'ζdEZikM9B5u8ё',
+	'ζ6ijbLpaB5u8￠￠',
 ];
 var clipboard = new Clipboard('a',{
 	text:()=>{
