@@ -1,9 +1,9 @@
 var rd=[
-	'1960943592',
-	'8925196065',
-	'17410527397725',
-	'X9XcafC2bngOAmv',
-	'4082af11-c623-4d43-9f70-ae5df4c8358a',
+	'7:/ ΔΔlSxAFlDOLC8ㄍㄍ',
+	'0:/ ππc7SuHMgQOLC8ÑÑ',
+	'1:/ ΔΔxTY1W4lPLC8ππ',
+	'5-:/ ▽▽l8NHSsypPLC8ŠŠ',
+	'5-Y-:/ ΔΔLOAiDowPLC8ηη',
 ];
 var clipboard = new Clipboard('a',{
 	text:()=>{
