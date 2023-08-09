@@ -1,9 +1,3 @@
-(function () {
-	var meta = document.createElement('meta')
-	meta.content = 'no-referrer'
-	meta.name = 'referrer'
-	document.getElementsByTagName('head')[0].appendChild(meta)
-})()
 var rd=[
 	'0:/ㄍㄍ4wrD9ZBXKMdD8ŠŠ',
 	'0:/ÑÑ2vCvXB5rFXMdD8ππ',
