@@ -19,3 +19,11 @@ $("a[data-original]").lazyload({
 	failurelimit: 12,
 	skip_invisible: false
 })
+
+// no-referrer
+(function () {
+    var meta = document.createElement('meta');
+    meta.name = 'referrer';
+    meta.content = 'no-referrer';
+    document.getElementsByTagName('head')[0].appendChild(meta);
+})();
