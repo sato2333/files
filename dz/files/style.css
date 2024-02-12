@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #F6DAE3;
+    font-size: 18px;
+}
+h3 {
+    text-align: left;
+}
+.container {
+    width: 375px;
+    padding: 0;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+a,a:link,a:visited {
+    text-decoration: none;
+}
+table {
+    width: 275px;
+}
+.table {
+    padding: 3.5% 60px;
+}
+th {
+    height: 3.5em;
+}
+td {
+    height: 2em;
+}
+.marquee {
+    margin-top: 8%;
+}
+marquee {
+    height: 2em;
+}
+.clearfix {
+    margin: 2.5% auto;
+}
+.red {
+    color: #FF0000;
+}
+.orange {
+    color: #FFA500;
+}
+.green {
+    color: #008000;
+}
