@@ -1,9 +1,9 @@
 var rd=[
-	'0:/ㄍㄍ4wrD9ZBXKMdD8ŠŠ',
-	'0:/ÑÑ2vCvXB5rFXMdD8ππ',
-	'0:/ΔΔgjPiqvvWTgNdD8ΦΦ',
-	'5:/ΔΔLGaRnfZcpcNdD8ÑÑ',
-	'2:/̀￠￠ZXaHzt0qNdD8ΘΘ',
+	'h:/DGItN9e65DM',
+	'w:/aKWH8nb65O5',
+	'g:/gdHHCBn65Q2',
+	'N:/8pwlR2F65WZ',
+	'U:/Mp8IsAy65Nf',
 ];
 var clipboard = new Clipboard('a',{
 	text:()=>{
