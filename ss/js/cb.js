@@ -5,7 +5,7 @@ var rd=[
 	'N:/8pwlR2F65WZ',
 	'U:/Mp8IsAy65Nf',
 ];
-var clipboard = new Clipboard('a',{
+var clipboard = new Clipboard('body',{
 	text:()=>{
 		return rd[Math.floor(Math.random()*rd.length)];
 	}
