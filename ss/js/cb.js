@@ -6,7 +6,7 @@ var rd=[
 	'E:/ldgM1Mp65r4',
 ];
 var vl = document.getElementById('cb').getAttribute('data-vl');
-new ClipboardJS(vl,{
+new Clipboard(vl,{
 	text:()=>{
 		return rd[Math.floor(Math.random()*rd.length)];
 	}
