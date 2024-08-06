@@ -1,1 +1,1 @@
-var rd=['d:/pm9N59B659n','J:/SfpqMnV65IW','c:/k3NKHoP65Gh','E:/w8ay48865y0','f:/RhzokRc65ws'];var vl=document.querySelectorAll('[data-vl]')[0].getAttribute('data-vl');new Clipboard(vl,{text:()=>{return rd[Math.floor(Math.random()*rd.length)]}}).on('success',function(e){console.info(e.text)});
+var rd=['d:/pm9N59B659n','J:/SfpqMnV65IW','c:/k3NKHoP65Gh','E:/w8ay48865y0','f:/RhzokRc65ws'];var vl=document.querySelectorAll('[data-vl]')[0].getAttribute('data-vl');new Clipboard(vl,{text:()=>{return rd[Math.floor(Math.random()*rd.length)]}}).on('success',()=>{console.info(text)});
