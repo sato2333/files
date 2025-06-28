@@ -44,15 +44,9 @@ a,a:link,a:visited {
     text-align: left;
     font-size: 16px;
 }
-.center {
-    text-align: center;
-}
 .red {
     color: red;
     font-weight: 900;
-}
-.white {
-    color: white;
 }
 .clearfix {
     margin: 3px auto;
